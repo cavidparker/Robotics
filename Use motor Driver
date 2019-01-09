@@ -1,0 +1,32 @@
+int IN1 = 12;
+int IN2 = 13;
+int IN3 = 6;
+int IN4 = 7;
+
+void setup()
+{
+  pinMode(IN1,OUTPUT);
+  pinMode(IN2,OUTPUT);
+  //Serial.begin(9600);
+  pinMode(IN3,OUTPUT);
+  pinMode(IN4,OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(IN1,LOW);
+  digitalWrite(IN2,HIGH);
+  //Serial.println("on");
+  digitalWrite(IN3,HIGH);
+  digitalWrite(IN4,LOW);
+  
+  
+  //Serial.println("on");
+  
+  //delay(5000);
+  //digitalWrite(IN1,HIGH);
+  //digitalWrite(IN2,LOW);
+  //delay(5000);
+
+  
+}
